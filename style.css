@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Barlow;
+}
+.sec-1{
+    background-image: url("mobile/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.desktop{
+    display: none;
+}
+.desktop-nav{
+    display: none;
+}
+.nav-bar{
+    position: relative;;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+.nav-bar .logo{
+    padding-left: 20px;
+}
+.nav-bar .option{
+    position: absolute;
+    right: 6%;
+}
+.overlay{
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    width: 80%;
+    height: 0;
+    background-color: white;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.overlay ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.overlay ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: gray;
+    cursor: pointer;
+    
+}
+.overlay ul li:hover{
+    width: 120px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: #ffcc00;
+    color: black;
+}
+.overlay img{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    text-align: center;
+}
+.sec-1-head{
+    color: white;
+    text-align: center;
+    padding-top: 14%;
+    font-size: 23px;
+}
+.sec-1-head img{
+    padding-top: 10px;
+}
+.sec-2 .mobile{
+    width: 100%;
+}
+.sec-2-main{
+    width: 85%;
+    height: 300px;
+    margin:10% 7.5% 10% 7.5%;
+}
+.sec-2-main h2{
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sec-2-main p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: gray;
+}
+.sec-2-main a{
+    text-decoration: underline #ffcc00;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.sec-3 .mobile{
+    width: 100%;
+}
+.sec-3-main{
+    width: 85%;
+    height: 300px;
+    margin:10% 7.5% 10% 7.5%;
+}
+.sec-3-main h2{
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sec-3-main p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: gray;
+}
+.sec-3-main a{
+    text-decoration: underline #ffcc00;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.sec-4-one{
+    height: 550px;
+    background-image: url("mobile/image-graphic-design.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.sec-4-one .content{
+    width: 90%;
+    margin-left: 5%;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+}
+.sec-4-one .content h2{
+    font-family: Fraunces;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sec-4-one .content p{
+    font-weight: 600;
+    line-height: 27px;
+}
+.sec-4-two{
+    height: 550px;
+    background-image: url("mobile/image-photography.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.sec-4-two .content{
+    width: 90%;
+    margin-left: 5%;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+}
+.sec-4-two .content h2{
+    font-family: Fraunces;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sec-4-two .content p{
+    font-weight: 600;
+    line-height: 27px;
+}
+.sec-5 h3{
+    color: gray;
+    font-family: Fraunces;
+    text-align: center;
+    margin: 50px 0 60px 0;
+    letter-spacing: 4px;
+}
+.sec-5 .sec-5-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sec-5 .sec-5-content img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.sec-5 .sec-5-content p{
+    color: gray;
+    text-align: center;
+    line-height: 27px;
+    font-weight: 600;
+}
+.sec-5 .sec-5-content h3{
+    margin-top: 20px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.sec-5 .sec-5-content h3 span{
+    font-size: 13px;
+    color: gray;
+    font-weight: 300;
+}
+.sec-6-one{
+    display: flex;
+}
+.sec-6-one img{
+    width: 50%;
+    height: 50%;
+}
+.sec-6-two{
+    display: flex;
+}
+.sec-6-two img{
+    width: 50%;
+    height: 50%;
+}
+footer{
+    background-color: #80ffff;
+    color: hsl(168, 34%, 41%);
+}
+footer h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+footer ul li{
+    font-size: 20px;
+    list-style-type: none;
+}
+footer .footer-icons{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 12.5%;
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width:667px){
+    .sec-1 .option{
+        display: none;
+    }
+    .sec-1 .overlay{
+        display: none;
+    }
+    .desktop-nav{
+        display: flex;
+        position: absolute;
+        right: 5%;
+    }
+    .desktop-nav li{
+        font-size: 16px;
+        list-style-type: none;
+        margin-left: 18px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .desktop-nav li:hover{
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        width: 80px;
+        text-align: center;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-2{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 370px;
+    }
+    .sec-2 .mobile{
+        width: 50%;
+    }
+    .sec-2-main{
+        width: 50%;
+        margin:6% 5% 6% 5%;
+    }
+    .sec-2-main h2{
+        text-align: left;
+        font-size: 27px;
+    }
+    .sec-2-main p{
+        text-align: left;
+        font-size: 16px;
+    }
+    .sec-2-main a{
+        margin-top: 30px;
+    }
+    .sec-3{
+        display: flex;
+        height: 370px;
+    }
+    .sec-3 .mobile{
+        width: 50%;
+    }
+    .sec-3-main{
+        width: 50%;
+        margin:6% 5% 6% 5%;
+    }
+    .sec-3-main h2{
+        text-align: left;
+        font-size: 27px;
+    }
+    .sec-3-main p{
+        text-align: left;
+        font-size: 16px;
+    }
+    .sec-3-main a{
+        margin-top: 30px;
+    }
+    .sec-4{
+        display: flex;
+    }
+    .sec-4-one{
+        width: 50%;
+    }
+    .sec-4-two{
+        width: 50%;
+    }
+    .sec-4-one .content{
+        width: 100%;
+        margin-left: 0%;
+        position: absolute;
+        bottom: 15%;
+    }
+    .sec-4-one .content p{
+        font-size: 14px;
+    }
+    .sec-4-two .content{
+        width: 100%;
+        margin-left: 0%;
+        position: absolute;
+        bottom: 15%;
+    }
+    .sec-4-two .content p{
+        font-size: 14px;
+    }
+    .sec-5-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sec-5 .sec-5-content{
+        margin:0 2% 0 2%;
+    }
+    .sec-5 .sec-5-content img{
+        width: 80px;
+        height: 80px;
+    }
+    .sec-5 .sec-5-content p{
+        text-align: center;
+        font-size: 10.5px;
+    }
+    .sec-5 .sec-5-content h3{
+        font-size: 16px;
+    }
+    .sec-5 .sec-5-content h3 span{
+        font-size: 12px;
+    }
+    .sec-6{
+        display: flex;
+    }
+    .sec-6-one img{
+        height: 200px;
+    }
+    .sec-6-two img{
+        height: 200px;
+    }
+    footer h1{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    footer ul{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 50px 15px;
+    }
+    footer ul li{
+        font-size: 15px;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+    footer .footer-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .footer-icons img{
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (min-width:850px){
+    .sec-1{
+        background-image: url("desktop/image-header.jpg");
+        background-position: bottom;
+        height: 600px;
+        width: 100%;
+        position: relative;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: inline;
+    }
+    .nav-bar .logo{
+        padding-left: 40px;
+    }
+    .desktop-nav li{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .desktop-nav li:hover{
+        border-radius: 15px;
+        width: 100px;
+        height: 30px;
+    }
+    .sec-1-head{
+        padding-top: 6%;
+        font-size: 27px;
+    }
+    .sec-2{
+        height: 450px;
+    }
+    .sec-2 .desktop{
+        width: 50%;
+    }
+    .sec-2-main h2{
+        font-size: 30px;
+    }
+    .sec-2-main p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .sec-3{
+        height: 450px;
+    }
+    .sec-3 .desktop{
+        width: 50%;
+    }
+    .sec-3-main h2{
+        font-size: 30px;
+    }
+    .sec-3-main p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .sec-3-main a{
+        margin-top: 50px;
+    }
+    .sec-4-one{
+        background-image: url("desktop/image-graphic-design.jpg");
+    }
+    .sec-4-one .content{
+        bottom: 10%;
+    }
+    .sec-4-one .content h2{
+        font-size: 32px;
+    }
+    .sec-4-one .content p{
+        line-height: 35px;
+        font-size: 18px;
+    }
+    .sec-4-two{
+        background-image: url("desktop/image-photography.jpg");
+    }
+    .sec-4-two .content{
+        bottom: 10%;
+    }
+    .sec-4-two .content h2{
+        font-size: 32px;
+    }
+    .sec-4-two .content p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .sec-5-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-5 .sec-5-content{
+        margin:0 2% 0 2%;
+    }
+    .sec-5 .sec-5-content img{
+        width: 140px;
+        height: 140px;
+    }
+    .sec-5 .sec-5-content p{
+        font-size: 13.5px;
+        line-height: 30px;
+    }
+    .sec-5 .sec-5-content h3{
+        font-size: 20px;
+    }
+    .sec-5 .sec-5-content h3 span{
+        font-size: 15px;
+    }
+    .sec-6-one img{
+        width: 50%;
+        height: 100%;
+    } 
+    .sec-6-two img{
+        width: 50%;
+        height: 100%;
+    }
+    footer h1{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    footer ul li{
+        font-size: 30px;
+    }
+    footer .footer-icons img{
+        margin-right: 40px;
+    }
+}
